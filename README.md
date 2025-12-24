@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# Enerday – Energy-Based Time Management App
 
-First, run the development server:
+Enerday is a time management web app that helps users plan and complete tasks based on their **energy levels** and **available free time**, not just deadlines.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This project is built **without using AI** to improve my core frontend skills and real-world problem-solving ability.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ❓ Why I Built This Project
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Most productivity apps allow users to add unlimited tasks without considering:
+- How much free time they actually have
+- When they have enough energy to work
 
-## Learn More
+Because of this, users feel overwhelmed.
 
-To learn more about Next.js, take a look at the following resources:
+I built Enerday to solve this problem by using **realistic planning**:
+- Tasks are scheduled only when the user has **time and energy**
+- Extra tasks are automatically moved to future days
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🔁 How the App Works (Workflow)
 
-## Deploy on Vercel
+(First Time – Onboarding)
+→ User signs up
+→ User sets daily energy levels (by time range)
+→ User sets daily free / available time
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+(Daily Usage)
+→ User creates tasks (energy level + expected time)
+→ App auto-schedules tasks based on energy & free time
+→ User sees today’s plan
+→ User starts tasks with a countdown timer
+→ User reviews daily progress
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+(Weekly)
+→ User checks weekly productivity summary
+
+(Anytime)
+→ User can edit energy or free time
+→ App re-schedules future tasks only
+→ Past data remains unchanged
+
+
+---
+
+## ✨ Main Features
+
+- 🔋 Energy-based task planning
+- ⏰ Free time–aware scheduling
+- 🧠 Rule-based auto scheduling (no AI)
+- 🎯 Focus mode with countdown timer
+- 📝 Daily task review
+- 📊 Weekly productivity summary
+- 🔄 Flexible editing when life routine changes
+
+---
+
+## 🛠 Tech Stack
+
+- Next.js (App Router)
+- TypeScript
+- React
+- Tailwind CSS / shadcn-ui
+- Redux Toolkit
+- dayjs / date-fns
+
+> ❌ No AI tools or AI-generated logic used in this project.
+
+---
+
+## 🎯 Learning Goals
+
+- Build a real-life usable frontend application
+- Improve state management and data flow
+- Practice product-based thinking
+- Reduce dependency on AI tools
+- Prepare a strong project for job interviews
+
+---
+
+## 👨‍💻 Author
+
+**Avinash Rakholiya**  
+Frontend Developer (React / Next.js)
+
+> This project is built to strengthen my fundamentals and real-world development skills.
