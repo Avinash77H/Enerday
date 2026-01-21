@@ -2,9 +2,10 @@ export type EnergyLevel = "High" | "Medium" | "Low";
 
 export type Priority = "High" | "Medium" | "Low";
 
-export type TaskStatus = "Pending" | "InProgress" | "Completed";
+export type TaskStatus = "Pending" | "In Progress" | "Completed";
 
 export interface Task {
+    id:string,
     title: string;
     description?: string;
     energyLevel: EnergyLevel;
