@@ -5,8 +5,6 @@ export default function Home() {
   
   console.log("This is home page");
   console.log("This is demo page");
-
-  console.log("test for revert");
   
   return (
     <div>
